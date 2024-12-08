@@ -1,0 +1,129 @@
+body{
+    background-color: rgb(190, 180, 180);
+    
+}
+.container{
+    box-sizing:border-box;
+    width: 32%;
+    height: 800px;
+    
+   
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 70px;
+    text-align: center;
+    border-style: ridge;
+    box-shadow: 0px 0px 25px 10px;
+
+}
+.image1{
+    width: 100%;
+    filter: contrast(150%);
+    height: 30%;
+}
+.image2{
+    width: 34.10%;
+    height: 200px;
+    position: relative;
+    bottom: 100px;
+    border: 8px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 400px;
+    filter: contrast(150%);
+}
+h1{
+    font-size: 50px;
+    font-family: sans-serif;
+    font-style:oblique;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    bottom: 120px;
+}
+.p1{
+    color: gray;
+    font-size: 31px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    bottom: 135px;
+    font-family: sans-serif;
+}
+.p2{
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    bottom: 125px;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+hr{
+    border: none;
+    border-bottom: 3px solid rgb(239, 236, 236);
+    position: relative;
+    bottom: 100px;
+    
+}
+button{
+    width: 36%;
+    height: 45px;
+    position: relative;
+    bottom: 129px;
+    background-color:rgb(209, 48, 48);
+    font-size: 20px;
+    letter-spacing: 5px;
+    color: white;
+    font-weight: bolder;
+    border: none;
+    border-radius: 30px;
+}
+.container1{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    column-gap:20px;
+    position: relative;
+    bottom: 100px;
+    background-color: white;
+    margin-top: 10px;
+}
+.box1{
+    background-color: white;
+    width:70%;
+    height: 100px;
+}
+h2{
+    font-size: 40px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    position: relative;
+    bottom: 66px;
+    font-weight: bolder;
+
+}
+.p3{
+    position: relative;
+    bottom: 100px;
+
+    color: gray;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.box2{
+    background-color: white;
+    width:70%;
+    height: 100px;
+}
+.p4{
+    font-size: 20px;
+    position: relative;
+    bottom: 100px;
+    color: gray;
+    text-transform: uppercase;
+}
+.box3{
+    background-color: white;
+    width:70%;
+    height: 100px;
+}
